@@ -1,4 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## TEST
+
+### App Component
+* Shows the CommentBox inside of it
+* Shows the CommentList inside of it
+
+### CommentBox CommentBox component
+* Shows a text area and a button
+* Users can enter input into the text area and submit it
+* When the input is submitted, textArea should be cleared up.
+
+### CommentList component
+* Shows one "li" element per comment
+* Text from each comment is visible
+
+### Comments Reducer
+* Hands actions with a type of 'SAVE_COMMENT'
+* Does not throw an error if ti gets an action with any other type
+
+### SaveComment action
+* Has a type of 'SAVE_COMMENT'
+* Produce an action that has payload of the next comment's text
+
+
+### Enzyme API
+* Static Render: Render the given component and return plain HTML
+* Shallow Render: Render "just" the given component and none of its children
+* Full DOM: Render the component and all of its children + let us modify it afterwards.
+
+
+##### "setupTests.js" is configure Enzyme
+
+ 
+
 
 ## Available Scripts
 
